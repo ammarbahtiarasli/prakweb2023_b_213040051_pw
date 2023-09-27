@@ -48,7 +48,7 @@ $jumlahData = count(query('SELECT id_buku, judul, penerbit, tahun, cover, katego
                     Perpustakaan Online Sederhana dengan PHP dan MySQL - EuyBooks
                 </div>
                 <h3>Daftar Buku</h3>
-                <table class="table table-responsive">
+                <table class="table table-responsive table-bordered table-hover">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
